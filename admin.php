@@ -24,31 +24,31 @@ unset($_SESSION['connect_to_servis']);
 <div id="naglowek">
     <div class="container-fluid">
     <div class="row log col-md-12 col-lg-12 col-xl-12">
-    <div class="col-md-6 col-lg-6 col-xl-6">
-			   
-    <?php echo $valid; ?>
+    <div class="col-md-5 col-lg-5 col-xl-5">
+			<?php echo $valid; ?>   
+    
     </div>
        <div class="col-md-6 col-lg-6 col-xl-6">
             <form class="form-inline" role="form" action="login.php" method="POST">
             
                 <div class="form-group">
-                <div class="padform">
-                    <label class="sr-only" for="exampleInputEmail2">Login</label>
+               
+                  
                     <input type="text" name="log" class="form-control" id="exampleInputEmail2" placeholder="Podaj login">
-                </div>
+                
                 </div>
                 
                 <div class="form-group">
-                <div class=" padform">
-                    <label class="sr-only" for="exampleInputPassword2">Hasło</label>
+                
+                    
                     <input type="password" name="pass" class="form-control" id="exampleInputPassword2" placeholder="Podaj hasło">
-                </div>
+               
                 </div>
                 
                 <div class="form-group">
-                <div class="padform">
+                
                     <button type="submit" class="btn btn-default">Zaloguj się</button>
-                </div>
+               
                 </div>
                 
                 

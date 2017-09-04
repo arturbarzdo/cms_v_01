@@ -7,7 +7,7 @@ class Login extends LogAndPas{
 	public $flaglog;
 	public $flagpass;
 	
-		function __Construct($log,$pas){
+		function __construct($log,$pas){
 			
 			$this->login = $log;
 			$this->pass = $pas;
